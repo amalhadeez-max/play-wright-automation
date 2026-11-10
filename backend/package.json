@@ -1,0 +1,17 @@
+{
+  "name": "playwright-portal-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Playwright Test Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "@playwright/test": "^1.45.0",
+    "playwright": "^1.45.0"
+  }
+}
